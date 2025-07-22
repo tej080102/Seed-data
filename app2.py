@@ -6,10 +6,10 @@ from io import BytesIO
 
 # === CONFIGURATION ===
 
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 
-load_dotenv()
+#load_dotenv()
 OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 # === PROMPT ===
